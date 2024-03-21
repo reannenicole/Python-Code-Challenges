@@ -1,5 +1,7 @@
 # create a function that checks a string for vowels 
 
+to_check = input("Tell me a sentence, and I'll count the vowels! ")
+
 def vowel_counter(string):
     vowels = set("aeiou")
     count = 0
@@ -10,6 +12,5 @@ def vowel_counter(string):
     
     return count
 
-print(vowel_counter("there are four e's"))
-print(vowel_counter("rythm)"))
+print(vowel_counter(to_check))
 
