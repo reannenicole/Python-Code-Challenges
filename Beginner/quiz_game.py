@@ -1,9 +1,18 @@
 # write code that is like a quiz ame, and keeps track of user score
+print("\t\t~~~~~~~~~~~~~~~~~~~")
+print("\t\tWELCOME TO THE QUIZ")
+print("\t\t~~~~~~~~~~~~~~~~~~~\n")
+
+playing = input("Want to play? ")
+if playing != "yes":
+    quit()
+
+print("\nLet's play!")
 
 questions = [
-    ["What is the capital of the UK?\nA London\nB Sheffield\nC Birmingham? ", "london"],
-    ["What is the highest grossing movie of all time?\nA Dune 2\nB Avatar\nC Avengers Engame", "avatar"],
-    ["What is the planet closest to the sun?\nA Earth\nB Mercury\nC Venus", "mercury"],
+    ["\nWhat is the capital of the UK?\nA London\nB Sheffield\nC Birmingham? ", "london"],
+    ["\nWhat is the highest grossing movie of all time?\nA Dune 2\nB Avatar\nC Avengers Engame", "avatar"],
+    ["\nWhat is the planet closest to the sun?\nA Earth\nB Mercury\nC Venus", "mercury"],
 ]
 
 score = 0 
